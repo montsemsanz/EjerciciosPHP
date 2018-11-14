@@ -6,7 +6,7 @@
        */
       function esVocal($letra)
       {
-          return strpos("AEIOUaeiou", $letra);
+          return strpos("AEIOUaeiou", $letra) > 0 || strpos("AEIOUaeiou", $letra) === 0;
       }
 
       /**
@@ -16,11 +16,9 @@
       function contarVocales($cadena)
       {
           $vocales = 0;
-          for ($i = 0; $i < strlen($cadena); $i++)
-          {
+          for ($i = 0; $i < strlen($cadena); $i++) {
               $letra = substr($cadena, $i, 1);
-              if (esVocal($letra) !== false)
-              {
+              if (esVocal($letra)) {
                   $vocales++;
               }
           }
@@ -35,8 +33,7 @@
       {
           $guionizado = "";
           $i = 0;
-          for ($i = 0; $i < strlen($cadena) - 1; $i++)
-          {
+          for ($i = 0; $i < strlen($cadena) - 1; $i++) {
               $guionizado .= substr($cadena, $i, 1) . "-";
           }
           $guionizado .= substr($cadena, -1, 1);

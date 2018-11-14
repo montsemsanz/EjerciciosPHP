@@ -2,6 +2,8 @@
       require_once "includes/cabecera.php";
       require_once "funciones.php";
 
+      echo contarVocales("A");
+
       $nombres = ["Ana", "Luis", "Alberto", "Berta", "Elisa", "Juan", "Isabel"];
       echo "<h3>Escribimos cada nombre en may&uacute;sculas y el total de vocales</h3>\n";
       foreach ($nombres as $nombre) {
