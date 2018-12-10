@@ -1,0 +1,8 @@
+Este ejrcicio se puede tomar como modelo para:
+
+    - organizar el código en diferentes carpetas
+    - inclusión de una libraría de funciones de ayuda
+    - el controlador es index.php
+    - las vistas, bienvenidad.php (se muestra el resultado) y form_bienvendia.php (el formulario inicial de entrada)
+    - se validan (no de forma completa, la validación se puede hacer más exhaustiva) los datos de entrada
+    - el resultado se muestra en la misma página en la que se genera el formulario
