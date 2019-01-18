@@ -1,0 +1,209 @@
+﻿/* Estilos para los elementos HTML*/
+body {
+    margin-top: 0;
+    background-image:  url('../images/bggreen.jpg');
+    font-family: "Gautami", Helvetica, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    font-size: 200%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2  {
+    color: rgb(205, 163, 94);
+}
+h4 {
+    color: rgb(119, 75, 77);
+    padding: 2em;
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 10px 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+/* estilos para las secciones div */
+#contenido {
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid rgb(119, 75, 77);
+}
+#cabecera {
+    margin: 0;
+    border-bottom: 2px solid green;
+    padding: .2em 2em;
+    background-color: white;
+    text-align: center;
+     height: 50px;
+}
+#cabecera h1 {
+    margin: 0;
+    padding: .5em;
+    color: green ;
+    font-family: "Tempus Sans ITC";
+}
+#principal {
+    margin: 0;
+    padding: .5em 2em;
+    min-height: 400px;
+
+}
+#principal .error {
+    color:  #FF7214;
+   
+    font-size: small;
+    padding-left: 5px;
+
+}  
+#principal .resultado {
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: olivedrab;
+    color: white;
+    padding: 15px;
+
+} 
+ 
+ 
+#pie {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid green;
+}
+#pie p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+ 
+
+/********************************************************************
+* Estilos para el formulario
+********************************************************************/
+#form {
+   margin-top: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: beige;
+}
+#form fieldset {
+    padding: 15px;
+    border: 1px dotted #F7BE81;
+  
+ 
+}
+#form fieldset legend {
+    font-family: "Tempus Sans ITC";
+    font-weight: bold;
+    color: green;
+    font-size: larger;
+    border: 1px dotted #F7BE81;
+    padding: 5px;
+}
+
+#form label {
+    width: 10em;
+    padding-right: 1em;
+    text-align: left;
+    display: block;
+    font-family: "Tempus Sans ITC";
+    color: dimgrey;
+}
+
+#form label.fecha {
+    display: inline;
+    margin-left: 2em;
+    
+     
+}
+
+#form input {
+    
+    border: 1px solid  #F7BE81;
+    margin-bottom: 10px;
+    
+}
+#form input[type='text'] {
+    width: 15em;
+}
+#form input[type='radio'] {
+    width: 1em;
+    margin-left: 2em;
+}
+#form input[type='checkbox'] {
+    width: 3em;
+    margin-left: 5em;
+}
+#form select {
+     width: 5em;
+     margin-left: 1em;
+     margin-top: 0.3em;
+     border: 1px solid  #F7BE81;
+     margin-bottom: 10px;
+}
+
+#form select.ancho {
+     width: 11em;
+     
+}
+
+#form p {
+     margin-left: 10em;
+     margin-bottom: 3px;
+     
+}
+
+#form input[type='submit'] {
+    width: 10em;
+    margin-top: 1em;
+    background-color: green;
+    color: beige;
+    font-size: larger;
+    
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+     
+}
+
+ 
+#form  textarea{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#form div {
+    clear:left;
+}
