@@ -13,7 +13,7 @@
       if (empty($nombre)) {
           $errores['nombre'] = 'Introduzca nombre';
       }
-      if (empty($hijos) && $hijos !== 0) { // $hijos != '0'
+      if (empty($hijos) && $hijos != '0') { // $hijos != '0'
           $errores['hijos'] = 'Introduzca hijos';
       }
       else if (!is_numeric($hijos)) {
